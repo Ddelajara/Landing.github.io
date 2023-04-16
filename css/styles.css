@@ -1,0 +1,511 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding:10;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#010101;
+}
+.container-navbar{
+    display: flex;
+    height: 80px;
+    background-color: #A81418;
+    justify-content: space-between;
+}
+
+.nav-btn1{
+    justify-content: flex-end;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.item{
+    width: auto;
+    color: #F2B700;
+    margin: 15px;
+    align-self: center;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li a {
+    color: #F2B700;
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.9); 
+}
+
+#logo-navbar {
+    max-width: 150px;
+    height: auto;
+}
+ul li a:hover {
+    color: white;
+}
+
+.btn1:hover {
+    color: white;
+}
+
+.btn2:hover {
+    color: white;
+}
+
+.btn1 {
+    background-color: #010101;
+    color: #F2B700;
+    border: none;
+    padding: 8px 20px;
+    margin-right: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size:medium;
+}
+.btn2 {
+    background-color: #010101;
+    color: #F2B700;
+    border: none;
+    padding: 8px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size:medium;
+}
+
+
+.elementor-widget-container {
+    height:fit-content;
+    margin: 17px 0px 0px 25px;
+    padding: 26px 0px 0px 0px;
+    background-color:#F2B700;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    border-color:#A81418;
+    border-radius: 0px 0px 22px 22px;
+}
+
+header {
+    text-align: right;
+    background-image: url("../image/paella-399005_1280.jpg");
+    padding: 70px;
+    background-position: center;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+}
+
+header h1 {
+    color:burlywood;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:40px;
+}
+
+header h2 {
+    color: #F2B700;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    font-size:25px;
+}
+
+#paella-ppal{
+   /*  max-width: 600px; */
+    height: 300px;
+}
+
+.container-quienes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#chef{
+    max-width: 700px; 
+    border-radius: 10px;
+    /* height: 300px; */
+}
+
+.container-quienes h1 {
+    color:#A81418;
+    font-size:30px;
+    padding:20px;
+    margin-left: 30px;
+}
+.container-quienes p {
+    color: burlywood;
+    font-size:medium;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.img-mapa {
+    display: flex;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.img-mapa p {
+    padding-left: 1%;
+    margin-left: 0px;
+    justify-content: flex-start;
+}
+
+.seccion-catalogo{
+    padding: 10px;
+    color:#F2B700;
+    margin-top: 2px;
+    margin-left: 30px;
+    /* height: 300px; */
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #A81418;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#titulo-catalogo {
+    margin-top: 40px;
+    color:#A81418;
+    font-size:30px;
+}
+
+#catalogo-p{
+    color: burlywood;
+    font-size:medium;
+    margin-top: 10px;
+}
+.card{
+    background-color: #F2B700;
+    padding: 50px;
+    width: 30%;
+    box-shadow: 0, 30px, 15px, rgba(0, 0, 0, 0.15 );
+    color: #010101;
+    text-align: left;
+    margin-bottom: 10px;
+    border-color: #010101;
+    border-radius: 20px;
+}
+
+.card img{
+    max-width: 100%;
+    border-radius: 5%;
+}
+
+
+.card p{
+    margin-top: 10px ;
+}
+
+.card-precios{
+    margin-top: 10px ;
+    font-size: large;
+}
+
+.linea-borde{
+    border-bottom: 4px solid black;
+    border-color:#010101;
+}
+
+.seccion-reserva{
+    padding: 10px;
+    margin-top: 3px;
+    margin-left: 30px;
+    color:#F2B700;
+}
+
+.container-reserva{
+  display: flex;
+  justify-content:space-between; 
+  padding: 1px;
+  margin: 1px;
+
+  /*    flex-direction: column;*/
+}
+
+#titulo-reserva {
+    margin-top: 20px;
+    color:#A81418;
+    font-size:30px;
+}
+
+.contacto-formulario{
+    margin: 20px;
+    margin-left: 2px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border: 2px solid #F2B700;
+    padding: 10px;
+/*     max-width: 800px; */
+    width: 400px;
+    border-radius: 10px;
+}
+
+form label {
+    display: inline-block;
+    width: 100%;
+    /* max-width: 400px; */
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 100%;
+    /* max-width: 800px; */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: burlywood;
+}
+
+input[type="submit"] {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    background-color: #A81418;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    background-color: #F2B700;
+}
+
+#reserva-foto{
+    border-radius: 10px;
+    margin-top: 15px;
+    height: 520px; 
+}
+
+footer {
+    background-color:#A81418;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  footer .contenedor {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  footer .contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  footer nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  @media (max-width: 768px)
+{
+    ul {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color:#A81418;
+        height: 400px;
+    }
+
+    .container-quienes {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+    }
+
+    header {
+        text-align: right;
+        /* background-image:none;*/
+         padding: 70px;
+       /*  background-position: center; */
+/*         background-size: cover;
+ */        /*background-attachment: fixed;*/
+    }
+
+    .nav-btn1{
+        display: none;
+    }
+
+    .container-navbar{
+/*         display: flex;
+        height: 80px;
+ */        
+        background-color:#010101;
+        /* justify-content: space-between; */
+    }
+
+    .container-quienes {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 150px;
+    }
+ 
+    #chef{
+        width: 100%; 
+        border-radius: 10px;
+        padding-left: 50px;
+        display: block;
+        /* height: 300px; */
+    }
+
+/*     #reserva-foto{
+        border-radius: 10px;
+        margin-top: 15px;
+        height: 220px; 
+    } */
+ 
+    header h1 {
+        display: none;
+/*         color:burlywood;
+        font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size:20px;
+ */    }
+    
+    header h2 {
+         color: burlywood;
+        font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: medium;
+        font-size: 15px;
+     }
+     
+    .container-card {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        flex-wrap: wrap;
+        background-color: #A81418;
+        margin-top: 30px;
+        padding: 20px;
+        border-radius: 10px;
+        align-items: center;
+    }
+
+    .card{
+        background-color: #F2B700;
+        padding: 50px;
+        width: 100%;
+        box-shadow: 0, 30px, 15px, rgba(0, 0, 0, 0.15 );
+        color: #010101;
+        text-align: left;
+        margin-bottom: 10px;
+        border-color: #010101;
+        border-radius: 20px;
+    }
+
+    .card{
+        max-width: 90%;
+        border-radius: 5%;
+    }
+
+    .container-reserva {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .contacto-formulario {
+        width: 100%;
+        max-width: 400px;
+      }
+      
+      #reserva-foto {
+       display: none;
+      }
+
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        border: 2px solid #F2B700;
+        padding: 10px;
+    /*     max-width: 800px; */
+        width: 100%;
+        border-radius: 10px;
+    }
+
+      /* Estilos para footer con ancho máximo de 768px */
+  footer .contenedor {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer .contenido {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  footer .contenido p {
+    margin: 20px;
+    justify-content:left;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+
+  }
+  footer nav {
+    margin-bottom: 20px;
+  }
+  
+  footer ul {
+
+    width: 100%;
+  }
+
+  footer ul li a {
+    text-align: center;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    padding: 10px;
+  }
+}
